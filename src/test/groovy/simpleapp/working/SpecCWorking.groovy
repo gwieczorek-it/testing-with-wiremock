@@ -1,8 +1,9 @@
-package simpleapp
+package simpleapp.working
+
 
 import spock.lang.Unroll
 
-class SpecE extends BaseITSpec {
+class SpecCWorking extends WorkingBaseITSpec {
 
     @Unroll
     def "test dummy #i"() {
