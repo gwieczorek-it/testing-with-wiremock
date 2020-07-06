@@ -46,7 +46,7 @@ abstract class WorkingBaseITSpec extends Specification {
         new WireMockRule(
                 wireMockConfig()
                         .port(port)
-                        .jettyStopTimeout(30000) //jetty default is 30k, any value other that 0 should work
+                        .jettyStopTimeout(10) //jetty default is 30k, any value other that 0 should work - ie. 10ms works too
         )
     }
 
