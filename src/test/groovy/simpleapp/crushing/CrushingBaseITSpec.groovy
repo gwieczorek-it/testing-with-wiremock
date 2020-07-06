@@ -1,4 +1,4 @@
-package simpleapp
+package simpleapp.crushing
 
 import com.github.tomakehurst.wiremock.junit.WireMockRule
 import org.junit.Rule
@@ -10,7 +10,7 @@ import spock.lang.Specification
 import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.RANDOM_PORT
 
 @SpringBootTest(webEnvironment = RANDOM_PORT)
-abstract class BaseITSpec extends Specification {
+abstract class CrushingBaseITSpec extends Specification {
 
     @Rule
     WireMockRule serviceA = new WireMockRule(10010)

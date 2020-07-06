@@ -1,8 +1,8 @@
-package simpleapp
+package simpleapp.crushing
 
 import spock.lang.Unroll
 
-class SpecB extends BaseITSpec {
+class SpecJCrushing extends CrushingBaseITSpec {
 
     @Unroll
     def "test dummy #i"() {
